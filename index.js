@@ -14,5 +14,4 @@ module.exports.clear = async () => {
 module.exports.showAll = async () => {
     const list = await db.read()
     functionList.printTasks(list)
-
 }
